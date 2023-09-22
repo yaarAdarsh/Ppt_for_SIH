@@ -1,12 +1,12 @@
 *{
     margin: 0;
-    font-family: Ariel;
+    font-family: Arial;
     border: border-box;
 }
 .head{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;   
     font-size: 48px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 141px;
 }
 .detail
@@ -14,8 +14,8 @@
     color: rgba(0, 0, 0, 0.65);
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 141px;
-    margin-top: 62px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-size: 32px;
 }
 .pass{
@@ -30,24 +30,24 @@
 {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    height: 68px;
-    width: 454px;
+    height: 60px;
+    width: 440px;
     border: 1px solid rgba(0, 0, 0, 0.65);
     border-radius: 10px;
     margin-left: 141px;
-    margin-bottom: 42px;
+    margin-bottom: 30px;
     padding-left: 30px;
 }
 .button
 {
-    height: 68px;
-    width: 1041px;
+    height: 60px;
+    width: 1095px;
     color: white;
     background: #123D6A;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    margin-left: 180px;
+    margin-left: 140px;
     margin-bottom: 100px;
     border: 1px solid black;
     border-radius: 10px;
@@ -57,9 +57,19 @@
     background-color: white;
     cursor: pointer;
 }
-/* @media(max-width: 700px){
+@media(max-width: 1200px ) and (min-width: 400px){
     .button{
-        width:auto;
+        width:477px;
+        height: 60px;
+    }
+}
+/* @media(max-width: 400)
+{
+    .name{
+        margin-left: 80px;
+    }
+    .button{
+        margin-left: 50px;
     }
 } */
 
@@ -69,7 +79,7 @@
     font-weight: 600;
     margin-left: 145px;
     margin-top: 21px;
-    margin-bottom: 41px;
+    /* margin-bottom: 41px; */
 }
 .forget{
     font-family: Arial, Helvetica, sans-serif;
@@ -85,7 +95,7 @@
     width: 480px;
     background-color: #123D6A;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif   ;
     font-size: 30px;
     border: 1px solid black;
     border-radius: 10px;
@@ -94,4 +104,86 @@
     cursor: pointer;
     color: #123D6A;
     background-color: white;
+}
+
+/* Reset_your_password_page */
+
+.reset{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 70px;
+}
+.warning{
+    color: red;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 275px;
+}
+
+.box{
+    height: 68px;
+    width: 430px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.65);
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+.badadabba{
+    display: flex;
+    justify-content: center;
+}
+.dabba{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.submit{
+    margin-top: 30px;
+    height: 68px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #123D6A;
+}
+.submit:hover{
+    color: #123D6A;
+    background-color: white;
+    cursor: pointer;
+}
+.note{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.73);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 470px){
+    .submit{
+        width: auto;
+    }
+    .dabba{
+        width: 100px;
+    }
+}
+.resend{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;   
+    text-decoration: none;  
+    padding-left: 310px;
 }
